@@ -132,7 +132,7 @@ def screen_win(screen, clock):
 
 
 def screen_lose(screen, clock):
-    return _end_screen(screen, clock, "Game Over :(", "RESTART")
+    return _end_screen(screen, clock, "Game Over!", "RESTART")
 
 
 def _end_screen(screen, clock, headline, btn_label):
